@@ -4,8 +4,6 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 
-var rsvp;
-
 // setup express server
 var app = express();
 var PORT = 3000;
@@ -26,8 +24,8 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "",
-  database: "Tatsu_DB"
+  password: "pChrms1115",
+  database: "tatsu_db"
 });
 
 connection.connect(function(err) {
@@ -41,12 +39,12 @@ app.get("/", function(req, res) {
  res.sendFile(path.join(__dirname, "index.html"));
 });
 // make rsvp page
-app.get("/rsvp", function(req, res) {
- res.sendFile(path.join(__dirname, "rsvp.html"));
+app.get("/reservation", function(req, res) {
+ res.sendFile(path.join(__dirname, "reservation.html"));
 });
 // see tables
 app.get("/table", function(req, res) {
- res.sendFile(path.join(__dirname, "tables.html"));
+ res.sendFile(path.join(__dirname, "viewtables.html"));
 });
 
 // set up to show all info
