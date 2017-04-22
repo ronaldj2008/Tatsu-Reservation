@@ -4,8 +4,6 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 
-var rsvp;
-
 // setup express server
 var app = express();
 var PORT = 3000;
@@ -26,7 +24,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "",
+  password: "pChrms1115",
   database: "tatsu_db"
 });
 
