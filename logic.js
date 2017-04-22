@@ -24,7 +24,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "pChrms1115",
+  password: "",
   database: "tatsu_db"
 });
 
