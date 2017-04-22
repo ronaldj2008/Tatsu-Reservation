@@ -1,0 +1,25 @@
+{
+  "name": "tatsu-rsvp",
+  "version": "1.0.0",
+  "description": "Make a reservation at Tatsu",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheNerdyFeline/Tatsu-Reservation.git"
+  },
+  "author": "Jackie, Ron, Mark, Aryan, Reiniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheNerdyFeline/Tatsu-Reservation/issues"
+  },
+  "homepage": "https://github.com/TheNerdyFeline/Tatsu-Reservation#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7"
+  }
+}
