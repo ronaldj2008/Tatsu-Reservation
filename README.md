@@ -7,7 +7,7 @@ Our application will be made up of two parts:
 
 Spend the time necessary to map this application out. 
 
-Consider the concepts we've covered in class so far:
+The concepts we've covered in class so far:
 Servers
 Routing
 APIs
